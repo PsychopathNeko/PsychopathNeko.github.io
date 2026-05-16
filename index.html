@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaonan Guo</title>
+    <meta name="description" content="Xiaonan Guo - Psychiatry Master's Student and Multi-omics Researcher at Zhejiang University School of Medicine">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Mobile Header -->
+    <header class="mobile-header" id="mobileHeader">
+        <span class="mobile-name" data-en="Xiaonan Guo" data-cn="郭肖楠">Xiaonan Guo</span>
+        <div class="mobile-header-right">
+            <button class="lang-toggle" id="langToggleMobile" onclick="toggleLang()">中文</button>
+            <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <!-- Left Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <div class="sidebar-photo"><img src="photo.jpg" alt="Xiaonan Guo"></div>
+            <h1 class="sidebar-name" data-en="Xiaonan Guo" data-cn="郭肖楠">Xiaonan Guo</h1>
+            <p class="sidebar-title" data-en="M.Med. Student in Psychiatry" data-cn="精神病学硕士在读">M.Med. Student in Psychiatry</p>
+            <p class="sidebar-affiliation" data-en="Zhejiang University School of Medicine" data-cn="浙江大学医学院">Zhejiang University School of Medicine</p>
+            <div class="sidebar-divider"></div>
+            <div class="sidebar-education">
+                <div class="sidebar-edu-item">
+                    <span class="sidebar-edu-date" data-en="2024 – Present" data-cn="2024 – 至今">2024 – Present</span>
+                    <span class="sidebar-edu-degree" data-en="M.Med. in Psychiatry" data-cn="精神病学硕士">M.Med. in Psychiatry</span>
+                    <span class="sidebar-edu-school" data-en="Zhejiang University" data-cn="浙江大学">Zhejiang University</span>
+                </div>
+                <div class="sidebar-edu-item">
+                    <span class="sidebar-edu-date">2019 – 2024</span>
+                    <span class="sidebar-edu-degree" data-en="B.Med. in Clinical Medicine" data-cn="临床医学学士">B.Med. in Clinical Medicine</span>
+                    <span class="sidebar-edu-school" data-en="Zhejiang University" data-cn="浙江大学">Zhejiang University</span>
+                </div>
+            </div>
+            <div class="sidebar-contact">
+                <div class="sidebar-contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <span data-en="Hangzhou, China" data-cn="中国杭州">Hangzhou, China</span>
+                </div>
+                <div class="sidebar-contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg>
+                    <a href="mailto:xiaonan.guo@zju.edu.cn">xiaonan.guo@zju.edu.cn</a>
+                </div>
+            </div>
+            <div class="sidebar-social">
+                <a href="https://github.com/PsychopathNeko" target="_blank" rel="noopener" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                <a href="https://scholar.google.com/citations?hl=en&user=ppQ-vPkAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg></a>
+                <a href="CV_short_Xiaonan-%E5%89%AF%E6%9C%AC.pdf" download aria-label="Download CV"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+            </div>
+            <button class="lang-toggle sidebar-lang" id="langToggle" onclick="toggleLang()">中文</button>
+            <p class="sidebar-quote" data-en="&ldquo;I pray for a transparent heart<br>and eyes that can shed tears.&rdquo;" data-cn="&ldquo;我祈祷拥有一颗透明的心灵<br>和会流泪的眼睛&rdquo;">&ldquo;我祈祷拥有一颗透明的心灵<br>和会流泪的眼睛&rdquo;</p>
+        </div>
+    </aside>
+
+    <!-- Right Main Content -->
+    <main class="main-content" id="mainContent">
+        <section id="about" class="section">
+            <h2 class="section-title" data-en="About" data-cn="关于我">About</h2>
+            <ul class="about-list">
+                <li data-en="Research interests: pathophysiology and clinical translation of bipolar disorder" data-cn="研究兴趣：双相障碍的病理生理学机制及临床转化">Research interests: pathophysiology and clinical translation of bipolar disorder</li>
+                <li data-en="Psychotherapy training: CBT &amp; MBCT" data-cn="心理咨询培训：CBT &amp; MBCT">Psychotherapy training: CBT &amp; MBCT</li>
+                <li data-en="Knowledge sharing: <a href='https://space.bilibili.com/13678107' target='_blank' rel='noopener'>Bilibili @Univeron</a>" data-cn="知识分享：<a href='https://space.bilibili.com/13678107' target='_blank' rel='noopener'>Bilibili @Univeron</a>">Knowledge sharing: <a href="https://space.bilibili.com/13678107" target="_blank" rel="noopener">Bilibili @Univeron</a></li>
+                <li data-en="Kind, curious, fun" data-cn="善意、好奇、有趣">Kind, curious, fun</li>
+            </ul>
+        </section>
+
+        <section id="research" class="section">
+            <h2 class="section-title" data-en="Research" data-cn="研究方向">Research</h2>
+            <p class="research-intro" data-en="From neural circuits of stress-induced depression @ ZJU Brain Science Institute, to population genomics and human brain multi-omics of mood disorders @ FAHZU Psychiatry / Hu Lab." data-cn="从压力致郁的神经环路 @ 浙大脑院，到情感障碍的人群遗传组学与人脑多组学 @ 浙一精神科 / 胡少华课题组。">From neural circuits of stress-induced depression @ ZJU Brain Science Institute, to population genomics and human brain multi-omics of mood disorders @ FAHZU Psychiatry / Hu Lab.</p>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12s1.5-2 4-2 4 2 4 2"/><path d="M8 12s1.5 2 4 2 4-2 4-2"/><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/></svg></div>
+                    <h3 data-en="Psychiatric Genomics" data-cn="精神疾病基因组学">Psychiatric Genomics</h3>
+                    <p data-en="Dissecting the genetic basis of psychiatric disorders via multi-trait GWAS, facilitating clinical translation of polygenic risk scores." data-cn="通过多性状GWAS解析精神疾病的遗传基础，推动多基因风险评分的临床转化应用。">Dissecting the genetic basis of psychiatric disorders via multi-trait GWAS, facilitating clinical translation of polygenic risk scores.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="12" r="3"/><circle cx="17" cy="7" r="3"/><circle cx="17" cy="17" r="3"/><line x1="10" y1="12" x2="14" y2="7"/><line x1="10" y1="12" x2="14" y2="17"/></svg></div>
+                    <h3 data-en="Single-cell &amp; Spatial Multi-omics" data-cn="单细胞与空间多组学">Single-cell &amp; Spatial Multi-omics</h3>
+                    <p data-en="Integrating snRNA-seq, Stereo-seq, and scATAC-seq to map cell-type-specific dysregulation in postmortem bipolar disorder brain." data-cn="整合snRNA-seq、Stereo-seq和scATAC-seq，绘制双相障碍死后脑组织细胞类型特异性失调图谱。">Integrating snRNA-seq, Stereo-seq, and scATAC-seq to map cell-type-specific dysregulation in postmortem bipolar disorder brain.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="section">
+            <h2 class="section-title" data-en="Publications" data-cn="学术论文">Publications</h2>
+            <p class="pub-note"><span data-en="† Co-first author. Full list on " data-cn="† 共同第一作者。完整列表见 ">† Co-first author. Full list on </span><a href="https://scholar.google.com/citations?hl=en&amp;user=ppQ-vPkAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</p>
+            <div class="publication-list">
+                <div class="publication-item">
+                    <span class="pub-number">1</span>
+                    <div class="pub-body">
+                        <p class="pub-title">Shared Genetic Architecture and Bidirectional Clinical Risks Within the Psycho-metabolic Nexus</p>
+                        <p class="pub-authors"><strong>Guo X†</strong>, Feng Y†, Ji X†, Jia N†, Maimaiti A, Lai J, Wang Z, Yang S, Hu S.</p>
+                        <p class="pub-journal"><em>eBioMedicine</em>, 111:105530, 2024</p>
+                        <a href="https://doi.org/10.1016/j.ebiom.2024.105530" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <span class="pub-number">2</span>
+                    <div class="pub-body">
+                        <p class="pub-title">Characteristics of Brain Network Connectome and Connectome-based Efficacy Predictive Model in Bipolar Depression</p>
+                        <p class="pub-authors">Xi C†, Lu B†, <strong>Guo X†</strong>, Qin Z, Yan C, Hu S.</p>
+                        <p class="pub-journal"><em>Molecular Psychiatry</em>, 30(11):5150–5160</p>
+                        <a href="https://doi.org/10.1038/s41380-025-03099-6" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <span class="pub-number">3</span>
+                    <div class="pub-body">
+                        <p class="pub-title">Cerebrospinal Fluid Genetics Enhance Risk Stratification in Bipolar Disorder</p>
+                        <p class="pub-authors">Feng Y†, <strong>Guo X†</strong>, Huang P†, et al.</p>
+                        <p class="pub-journal"><em>MedComm</em>, 7(3), 2026</p>
+                        <a href="https://doi.org/10.1002/mco2.70629" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <span class="pub-number">4</span>
+                    <div class="pub-body">
+                        <p class="pub-title">Is Muscarinic Receptor Agonist Effective and Tolerant for Schizophrenia?</p>
+                        <p class="pub-authors"><strong>Guo X†</strong>, Deng R†, Lai J, Hu S.</p>
+                        <p class="pub-journal"><em>BMC Psychiatry</em>, 25:323, 2025</p>
+                        <a href="https://doi.org/10.1186/s12888-025-06662-1" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <span class="pub-number">5</span>
+                    <div class="pub-body">
+                        <p class="pub-title">Constructing a Theoretical Model to Bridge Neural Transition with a State Switch in Bipolar Disorder</p>
+                        <p class="pub-authors"><strong>Guo X†</strong>, Chen L†, Lai J, Hu S.</p>
+                        <p class="pub-journal"><em>Neuroscience Bulletin</em>, 41(1):181–185</p>
+                        <a href="https://doi.org/10.1007/s12264-024-01298-9" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <span class="pub-number">6</span>
+                    <div class="pub-body">
+                        <p class="pub-title">Efficacy and Safety of Transcranial Direct Current Stimulation as an Add-On Trial Treatment for Acute Bipolar Depression Patients With Suicidal Ideation</p>
+                        <p class="pub-authors">Wang D†, <strong>Guo X†</strong>, Huang Q†, et al.</p>
+                        <p class="pub-journal"><em>CNS Neuroscience &amp; Therapeutics</em>, 30(11):e70077, 2024</p>
+                        <a href="https://doi.org/10.1111/cns.70077" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <span class="pub-number">7</span>
+                    <div class="pub-body">
+                        <p class="pub-title">Pushing the Frontiers: Optogenetics for Illuminating the Neural Pathophysiology of Bipolar Disorder</p>
+                        <p class="pub-authors">Kong L†, <strong>Guo X†</strong>, Shen Y, Xu L, Huang H, Lu J, Hu S.</p>
+                        <p class="pub-journal"><em>International Journal of Biological Sciences</em>, 19(14):4539–4551, 2023</p>
+                        <a href="https://doi.org/10.7150/ijbs.84923" class="pub-link" target="_blank" rel="noopener">DOI</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="interests" class="section">
+            <h2 class="section-title" data-en="Beyond Research" data-cn="科研之外">Beyond Research</h2>
+            <p class="interests-intro" data-en="When I'm not in the lab or clinic, you might find me..." data-cn="不在实验室或医院的时候，你可能会发现我在...">When I'm not in the lab or clinic, you might find me...</p>
+            <div class="interests-grid">
+                <div class="interest-item"><span class="interest-emoji">&#x1F431;</span><span data-en="Cat lover" data-cn="猫咪爱好者">Cat lover</span></div>
+                <div class="interest-item"><span class="interest-emoji">&#x1F3B6;</span><span data-en="Shoegaze" data-cn="盯鞋">Shoegaze</span></div>
+                <div class="interest-item"><span class="interest-emoji">&#x1F4DA;</span><span data-en="Reading" data-cn="阅读">Reading</span></div>
+                <div class="interest-item"><span class="interest-emoji">&#x1F3AC;</span><span data-en="Anime" data-cn="动漫">Anime</span></div>
+            </div>
+        </section>
+
+        <section id="acknowledgment" class="section">
+            <h2 class="section-title" data-en="Acknowledgment" data-cn="致谢">Acknowledgment</h2>
+            <p class="ack-text"><span data-en="Special thanks to " data-cn="特别感谢 ">Special thanks to </span><a href="https://cogito233.github.io/" target="_blank" rel="noopener">Zhiheng Lyu</a><span data-en=" for always being there." data-cn=" 的一路相伴。"> for always being there.</span></p>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2026 Xiaonan Guo.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
