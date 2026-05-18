@@ -318,25 +318,35 @@ img { max-width: 100%; height: auto; }
 .ack-layout {
     display: flex;
     align-items: center;
-    gap: 28px;
-    margin-bottom: 20px;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 24px;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ack-poem {
     flex: 1;
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     color: var(--color-text-secondary);
     font-style: italic;
-    line-height: 2;
+    line-height: 1.9;
+    text-align: right;
 }
 .ack-poem p { margin: 0; }
 .ack-photo { flex-shrink: 0; }
 .ack-photo img {
-    width: 200px;
+    width: 180px;
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);
     object-fit: cover;
 }
-.ack-text { color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.8; }
+.ack-text {
+    color: var(--color-text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.8;
+    text-align: center;
+}
 .ack-text a { font-weight: 500; }
 
 /* ===== Footer ===== */
