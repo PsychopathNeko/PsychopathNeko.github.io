@@ -315,10 +315,23 @@ img { max-width: 100%; height: auto; }
 .interest-item span:last-child { font-size: 0.85rem; color: var(--color-text-secondary); font-weight: 500; }
 
 /* ===== Acknowledgment ===== */
-.ack-photo { margin-bottom: 20px; }
+.ack-layout {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 20px;
+}
+.ack-poem {
+    flex: 1;
+    font-size: 0.88rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
+    line-height: 2;
+}
+.ack-poem p { margin: 0; }
+.ack-photo { flex-shrink: 0; }
 .ack-photo img {
-    width: 100%;
-    max-width: 260px;
+    width: 200px;
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);
     object-fit: cover;
