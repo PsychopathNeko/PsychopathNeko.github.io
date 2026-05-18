@@ -318,7 +318,7 @@ img { max-width: 100%; height: auto; }
 .ack-photo { margin-bottom: 20px; }
 .ack-photo img {
     width: 100%;
-    max-width: 400px;
+    max-width: 260px;
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);
     object-fit: cover;
