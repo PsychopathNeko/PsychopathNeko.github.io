@@ -321,7 +321,7 @@ img { max-width: 100%; height: auto; }
     justify-content: center;
     gap: 32px;
     margin-bottom: 24px;
-    max-width: 520px;
+    max-width: 580px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -330,10 +330,11 @@ img { max-width: 100%; height: auto; }
     font-size: 0.85rem;
     color: var(--color-text-secondary);
     font-style: italic;
-    line-height: 1.9;
+    line-height: 1.8;
     text-align: right;
 }
-.ack-poem p { margin: 0; }
+.ack-poem p { margin: 0 0 2px; }
+.lang-cn .ack-poem { font-size: 0.85rem; line-height: 1.9; }
 .ack-photo { flex-shrink: 0; }
 .ack-photo img {
     width: 180px;
