@@ -18,7 +18,7 @@
     --sidebar-width: 280px;
 }
 
-html { font-size: 16px; }
+html { font-size: 16px; scroll-behavior: smooth; }
 
 body {
     font-family: var(--font-en);
@@ -244,16 +244,6 @@ img { max-width: 100%; height: auto; }
 .about-list li::before { content: '\2014'; position: absolute; left: 0; color: var(--color-accent); font-weight: 600; }
 .about-list li:last-child { margin-bottom: 0; }
 
-/* ===== Education Timeline ===== */
-.timeline { position: relative; padding-left: 32px; }
-.timeline::before { content: ''; position: absolute; left: 6px; top: 8px; bottom: 8px; width: 2px; background: var(--color-border); }
-.timeline-item { position: relative; margin-bottom: 28px; }
-.timeline-item:last-child { margin-bottom: 0; }
-.timeline-dot { position: absolute; left: -32px; top: 8px; width: 14px; height: 14px; border-radius: 50%; background: var(--color-accent); border: 3px solid var(--color-bg); box-shadow: 0 0 0 2px var(--color-accent); }
-.timeline-date { display: inline-block; font-size: 0.85rem; font-weight: 600; color: var(--color-accent); margin-bottom: 4px; }
-.timeline-institution { font-size: 1.1rem; font-weight: 600; margin-bottom: 4px; }
-.timeline-degree { font-size: 0.95rem; color: var(--color-text-secondary); }
-
 /* ===== Research Cards ===== */
 .research-intro {
     color: var(--color-text-secondary);
@@ -398,12 +388,16 @@ img { max-width: 100%; height: auto; }
     }
 
     .interests-grid { grid-template-columns: repeat(2, 1fr); }
+    .ack-layout { flex-direction: column; gap: 20px; }
+    .ack-poem { text-align: center; }
+    .ack-photo img { width: 140px; }
 }
 
 @media (max-width: 480px) {
     .main-content { padding: 68px 16px 0; }
     .section-title { font-size: 1.3rem; }
     .interests-grid { grid-template-columns: repeat(2, 1fr); }
+    .ack-photo img { width: 120px; }
 }
 
 /* ===== Print ===== */
