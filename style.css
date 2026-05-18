@@ -315,6 +315,14 @@ img { max-width: 100%; height: auto; }
 .interest-item span:last-child { font-size: 0.85rem; color: var(--color-text-secondary); font-weight: 500; }
 
 /* ===== Acknowledgment ===== */
+.ack-photo { margin-bottom: 20px; }
+.ack-photo img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    object-fit: cover;
+}
 .ack-text { color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.8; }
 .ack-text a { font-weight: 500; }
 
