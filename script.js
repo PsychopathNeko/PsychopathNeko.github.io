@@ -39,6 +39,7 @@ function toggleMenu() {
     var hamburger = document.getElementById('hamburger');
     sidebar.classList.toggle('open');
     hamburger.classList.toggle('active');
+    document.body.classList.toggle('menu-open');
 }
 
 // ===== Click Outside to Close =====
@@ -53,6 +54,7 @@ document.addEventListener('click', function(e) {
     if (!sidebar.contains(e.target) && !mobileHeader.contains(e.target)) {
         sidebar.classList.remove('open');
         hamburger.classList.remove('active');
+        document.body.classList.remove('menu-open');
     }
 });
 
