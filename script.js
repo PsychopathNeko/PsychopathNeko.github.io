@@ -7,11 +7,13 @@ function toggleLang() {
         body.classList.add('lang-cn');
         updateLangButtons('EN');
         updateTextContent('cn');
+        document.documentElement.lang = 'zh-CN';
         localStorage.setItem('lang', 'cn');
     } else {
         body.classList.remove('lang-cn');
         updateLangButtons('中文');
         updateTextContent('en');
+        document.documentElement.lang = 'en';
         localStorage.setItem('lang', 'en');
     }
 }
@@ -65,5 +67,6 @@ document.addEventListener('click', function(e) {
         document.body.classList.add('lang-cn');
         updateLangButtons('EN');
         updateTextContent('cn');
+        document.documentElement.lang = 'zh-CN';
     }
 })();
